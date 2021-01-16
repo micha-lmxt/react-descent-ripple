@@ -16,7 +16,7 @@
 npm install --save react-descent-ripple
 ```
 
-## Usage
+## Getting started
 
 ```tsx
 
