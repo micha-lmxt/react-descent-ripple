@@ -4,6 +4,12 @@
 
 [![NPM](https://img.shields.io/npm/v/react-descent-ripple.svg)](https://www.npmjs.com/package/react-descent-ripple) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+
+[![Volcano ripple example](https://github.com/micha-lmxt/descent-ripple/blob/master/static/descent-ripple-tripple.gif)](https://gradientdescent.de/react-descent-ripple/)
+
+[More Examples and usage](https://gradientdescent.de/react-descent-ripple/)
+
+
 ## Install
 
 ```bash
@@ -13,15 +19,17 @@ npm install --save react-descent-ripple
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
 
-import MyComponent from 'react-descent-ripple'
-import 'react-descent-ripple/dist/index.css'
+import React from 'react'
+import Ripple from 'react-descent-ripple'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const MyButton = () => {
+  return (
+     <button> 
+        click me
+        <Ripple/>
+     </button>
+  )
 }
 ```
 
